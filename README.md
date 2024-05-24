@@ -14,7 +14,7 @@ Step 2: Create a function to get computer choice out of rock, paper & scissors
 >>> ASSIGN computer choice based on randomNumber i.e. Rock for values from 0 to 33, paper for 34 to 66 and scissors for value >66
 >>> RETURN computer choice as string
 >>> TEST if expected returns are there via console.log and devtools debug option to learn both
->>> Commit and push to github
+>>> Commit to github
 
 Step 3: Create a function to return player choice
 >>> SET function declaration named getHumanChoice
@@ -22,4 +22,8 @@ Step 3: Create a function to return player choice
 >>> CHECK the human player choice by storing in variable humanChoice and tell them if it is incorrect and put alert message to ask them to try again and recall the function from inside
 >>> RETURN the player choice on function call
 >>> TEST the output
->>> Commit and push to github
+>>> Commit to github
+
+Step 4: Declare 2 variables to keep score count for the player and computer
+>>> SET variable humanScore and computerScore with initial values 0
+>>> Commit to github

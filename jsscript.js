@@ -1,7 +1,7 @@
 //This is the Javascript external file
 console.log("Welcome to the Rock Paper Scissors game");
 
-//Step 1: Computer choice generation
+//Step 2: Computer choice generation
 function getComputerChoice () {
     let randomNumber = Math.floor(Math.random()*100);
     if (randomNumber <+33) { 
@@ -17,15 +17,20 @@ function getComputerChoice () {
 //console debug
 //console.log(getComputerChoice());
 
-//Step 2: Get human player choice
+//Step 3: Get human player choice
 
 function getHumanChoice () {
     let humanChoice = prompt("Please enter your choice - Rock, Paper or Scissors");
-    if (humanChoice === "Rock" || humanChoice === "Paper" || humanChoice === "Scissors") {
+    humanChoice = humanChoice.toLowerCase();
+    if (humanChoice === "rock" || humanChoice === "paper" || humanChoice === "scissors") {
         return humanChoice;
     }
     alert("Wrong choice, please try again");
     getHumanChoice();
 }
 //console debug
-console.log(getHumanChoice());
+//console.log(getHumanChoice());
+
+//Step 4: Declaration of player score variables
+let humanScore = 0, computerScore = 0;
+
