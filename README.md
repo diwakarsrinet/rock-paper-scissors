@@ -7,7 +7,14 @@ Step 1: Setting up the github repo and file structure
 >>> Clone the repo to local folder
 >>> Setup index.html file with basic structure and link to external jsscript.js script file. Create the jsscript.js file and test the linkage with Console message.
 >>> Commit and push to github the current progress
->>> Move to second step
 
-Step 2:
+Step 2: Create a function to get computer choice out of rock, paper & scissors
+>>> SET Function declaration named getComputerChoice with no arguments
+>>> GET random number with Math.random() function, round it off using Math.floor() function after multiplying the random number with 100 to place it in 0-99 range. Save it in randomNumber variable
+>>> ASSIGN computer choice based on randomNumber i.e. Rock for values from 0 to 33, paper for 34 to 66 and scissors for value >66
+>>> RETURN computer choice as string
+>>> TEST if expected returns are there via console.log and devtools debug option to learn both
+>>> TEST RESULT: works fine
+>>> Commit and push to github
+
 
