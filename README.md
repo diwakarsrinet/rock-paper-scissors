@@ -19,11 +19,26 @@ Step 2: Create a function to get computer choice out of rock, paper & scissors
 Step 3: Create a function to return player choice
 >>> SET function declaration named getHumanChoice
 >>> Ask player choice via Propmt by giving 3 options i.e. Rock, Paper or Scissors
->>> CHECK the human player choice by storing in variable humanChoice and tell them if it is incorrect and put alert message to ask them to try again and recall the function from inside
+>>> CHECK the human player choice by storing in variable humanChoice and tell them if it is incorrect and put alert message to ask them to try again and recall the function from inside. Repeat using do-while loop with a variable counter till correct input is provided.
 >>> RETURN the player choice on function call
 >>> TEST the output
 >>> Commit to github
 
 Step 4: Declare 2 variables to keep score count for the player and computer
 >>> SET variable humanScore and computerScore with initial values 0
+>>> Commit to github
+
+Step 5: Set-up playRound function to control single round of the game
+>>> SET function named playRound
+>>> CALL getComputerChoice and getHumanChoice and store the returned choices in variables computerChoice and humanChoice respectively
+>>> SHOW the winner after comparing the logic - Paper beats rock, scissor beats paper, rock beats scissor
+>>> Increment the previously declared global variables humanScore or computerScore based on this round's winner
+>>> Commit to github
+
+Step 6: Create playGame function to run the game for 5 rounds and then show the final score and winner
+>>> SET function named playGame
+>>> SET a for loop to run the rounds for 5 times
+>>> CALL the playRound function each time
+>>> SHOW scores for each round
+>>> SHOW final scores for the game
 >>> Commit to github
