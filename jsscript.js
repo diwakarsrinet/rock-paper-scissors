@@ -16,3 +16,16 @@ function getComputerChoice () {
 }
 //console debug
 //console.log(getComputerChoice());
+
+//Step 2: Get human player choice
+
+function getHumanChoice () {
+    let humanChoice = prompt("Please enter your choice - Rock, Paper or Scissors");
+    if (humanChoice === "Rock" || humanChoice === "Paper" || humanChoice === "Scissors") {
+        return humanChoice;
+    }
+    alert("Wrong choice, please try again");
+    getHumanChoice();
+}
+//console debug
+console.log(getHumanChoice());
