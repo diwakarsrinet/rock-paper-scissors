@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#Rock, #Paper, #Scissors {
+    background-color: red;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
